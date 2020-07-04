@@ -20,6 +20,7 @@ public class CommandManager{
         addCommand(new HelpCommand(this));
         addCommand(new MuteCommand());
         addCommand(new KickCommand());
+        addCommand(new PremiumCommand());
     }
 
     private void addCommand(ICommand cmd) {

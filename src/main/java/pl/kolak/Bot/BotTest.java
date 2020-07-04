@@ -22,6 +22,7 @@ public class BotTest {
                 .addEventListeners(new MoveFromWaitingRoomToLiveHelp())
                 .addEventListeners(new CheckOnlineUserOnServerMinecraft())
                 .addEventListeners(new CheckPingOnMinecraftServer())
+                .addEventListeners(new SendRatingAdmin())
                 .setActivity(Activity.listening("Matiego <3"))
                 .build();
     }
